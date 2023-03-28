@@ -4,6 +4,6 @@ pbilint is a validation/linting tool for Power BI reports. It inspects `.pbix` f
 
 ## How it works
 
-1. The `pbix` NPM package extracts report metadata and structure from a Power BI report file (`.pbix`). *This package is also published as a standalone API that you can use to parse report files in your projects!*
+1. The `pbix` NPM package extracts report metadata and structure from a Power BI report file. *This package is also published as a standalone API that you can use to parse report files in your projects!*
 1. The `pbilint` CLI compares the parsed report details (from the previous step) against a JSON configuration defining your expected structure.
 1. The comparison results are formatted and rendered in a way that makes identifying and debugging linter errors easy!
