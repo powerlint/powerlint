@@ -42,8 +42,6 @@ export async function parseReport(path: string) {
             ...section,
         }
     })
-
-    console.log(pages[0])
     
     return { pages }
 }
