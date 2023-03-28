@@ -14,17 +14,36 @@ export async function parseReport(path: string) {
 
     const layout: ReportLayout = JSON.parse(rawLayout.toString('utf-8').replace(/[\u0000-\u0019]+/g, ''))
 
-    const pages: Page[] = layout.sections.map(({ name, displayName, displayOption, config: rawConfig }) => {
+    const pages: Page[] = layout.sections.map(({ name: id, displayName: name, config: rawConfig, filters: rawFilters, visualContainers, ...section }) => {
         const config = JSON.parse(rawConfig as string)
+        const filters = JSON.parse(rawFilters as string)
 
         return {
-            id: name,
-            name: displayName,
-            displayOption,
+            id,
+            name,
             config,
+            filters,
+            visuals: visualContainers.map(({ config: rawConfig, query: rawQuery, filters: rawFilters, dataTransforms: rawDataTransforms, z: layer, ...visual }) => {
+                const config = JSON.parse(rawConfig as string)
+                const query = typeof rawQuery === 'undefined' ? undefined : JSON.parse(rawQuery as string)
+                const filters = JSON.parse(rawFilters as string)
+                const dataTransforms = typeof rawDataTransforms === 'undefined' ? undefined : JSON.parse(rawDataTransforms as string)
+
+                return {
+                    config,
+                    ...(query && { query }),
+                    filters,
+                    ...(dataTransforms && { dataTransforms }),
+                    layer,
+                    ...visual,
+                }
+            }),
             hidden: config['visibility'] === 1,
+            ...section,
         }
     })
+
+    console.log(pages[0])
     
     return { pages }
 }
@@ -35,6 +54,19 @@ export type Page = {
     displayOption: number
     config: unknown
     hidden: boolean
+    height: number
+    width: number
+    ordinal: number
+    visuals: Visual[]
+}
+
+export type Visual = {
+    x: number
+    y: number
+    width: number
+    height: number
+    layer: number
+    tabOrder?: number
 }
 
 type ReportLayout = {
