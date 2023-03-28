@@ -1,0 +1,23 @@
+{
+  "name": "pbix",
+  "version": "1.0.0",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/module.js",
+  "types": "dist/types.d.ts",
+  "scripts": {
+    "dev": "parcel watch",
+    "build": "parcel build",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/adm-zip": "^0.5.0",
+    "@types/node": "latest",
+    "parcel": "latest",
+    "typescript": "latest",
+    "vitest": "latest"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.10"
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "ES5",
+      "module": "ES2015",
+      "moduleResolution": "Node",
+      "esModuleInterop": true,
+      "strict": true
+    },
+    "include": [
+      "src"
+    ]
+  }
