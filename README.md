@@ -4,6 +4,7 @@
 # pbilint
 
 [![MIT license](https://img.shields.io/github/license/pbilint/pbilint?style=for-the-badge&labelColor=eef1ef&color=6369d1)](LICENSE)
+[![Contributors](https://img.shields.io/github/all-contributors/pbilint/pbilint?style=for-the-badge&labelColor=eef1ef&color=6369d1)](#contributors)
 [![GitHub discussions](https://img.shields.io/badge/GitHub-Discussion-black?style=for-the-badge&labelColor=eef1ef&color=6369d1&logo=github&logoColor=1c2321)][discussion]
 [![Testing status](https://img.shields.io/github/actions/workflow/status/pbilint/pbilint/test.yml?label=tests&style=for-the-badge&labelColor=eef1ef&logo=vitest&logoColor=1c2321)][tests]
 [![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/pbilint/pbilint?style=for-the-badge&labelColor=eef1ef&logo=snyk&logoColor=1c2321)](#)
@@ -32,3 +33,14 @@ The [`pbilint` package](packages/pbilint) is a CLI for linting and validating Po
 [discussion]: https://github.com/orgs/pbilint/discussions
 [turborepo]: https://turbo.build/repo
 [pnpm]: https://pnpm.io
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
