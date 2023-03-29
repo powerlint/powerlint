@@ -3,13 +3,15 @@
 
 # pbilint
 
-[![MIT license](https://img.shields.io/github/license/pbilint/pbilint?style=for-the-badge&labelColor=eef1ef&color=6369d1)](LICENSE)
+[![MIT license](https://img.shields.io/github/license/pbilint/pbilint?style=for-the-badge&labelColor=eef1ef&color=6369d1&logo=open-source-initiative&logoColor=1c2321)](LICENSE)
 [![Contributors](https://img.shields.io/github/all-contributors/pbilint/pbilint?style=for-the-badge&labelColor=eef1ef&color=6369d1)](#contributors)
 [![GitHub discussions](https://img.shields.io/badge/GitHub-Discussion-black?style=for-the-badge&labelColor=eef1ef&color=6369d1&logo=github&logoColor=1c2321)][discussion]
 [![Testing status](https://img.shields.io/github/actions/workflow/status/pbilint/pbilint/test.yml?label=tests&style=for-the-badge&labelColor=eef1ef&logo=vitest&logoColor=1c2321)][tests]
 [![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/pbilint/pbilint?style=for-the-badge&labelColor=eef1ef&logo=snyk&logoColor=1c2321)](#)
 
 pbilint is a validation/linting tool for Power BI reports. It inspects `.pbix` files to guarantee that your predefined conditions (e.g. "x" page is hidden, "y" page has "z" visual) are satisfied. Integrating with a Continuous Integration (CI) solution allows you to ensure that destructive modifications are not unintentionally introduced to your Power BI reports.
+
+> *pbilint is not endorsed by nor affiliated with Microsoft or Power BI in any shape or form. pbilint is a community project to provide better tooling around Power BI!*
 
 ## How it works
 
@@ -29,11 +31,6 @@ The [`pbix` package](packages/pbix) is an API library for parsing and extracting
 
 The [`pbilint` package](packages/pbilint) is a CLI for linting and validating Power BI reports against predefined conditions. Internally, this CLI uses the [`pbix`](#pbix) library to parse Power BI report files.
 
-[tests]: https://github.com/pbilint/pbilint/actions/workflows/test.yml
-[discussion]: https://github.com/orgs/pbilint/discussions
-[turborepo]: https://turbo.build/repo
-[pnpm]: https://pnpm.io
-
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -51,3 +48,8 @@ The [`pbilint` package](packages/pbilint) is a CLI for linting and validating Po
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
+[tests]: https://github.com/pbilint/pbilint/actions/workflows/test.yml
+[discussion]: https://github.com/orgs/pbilint/discussions
+[turborepo]: https://turbo.build/repo
+[pnpm]: https://pnpm.io
