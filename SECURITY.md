@@ -4,7 +4,7 @@
 
 ### `pbilint`
 
-The following table describes the versions of pbilint that the core team currently support with security fixes.
+The following table describes the versions of [`pbilint`](packages/pbilint) that the core team currently support with security fixes.
 
 | Version | Supported          |
 | :-----: | :----------------: |
@@ -12,7 +12,7 @@ The following table describes the versions of pbilint that the core team current
 
 ### `pbix`
 
-The following table describes the versions of pbilint that the core team currently support with security fixes.
+The following table describes the versions of [`pbix`](packages/pbix) that the core team currently support with security fixes.
 
 | Version | Supported          |
 | :-----: | :----------------: |
