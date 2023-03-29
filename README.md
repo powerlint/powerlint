@@ -13,9 +13,7 @@ pbilint is a validation/linting tool for Power BI reports. It inspects `.pbix` f
 
 ## Monorepo contents
 
-This monorepo is a [turborepo][turborepo] using [pnpm][pnpm] as a package manager.
-
-The workspace is comprised of the following packages:
+This monorepo is a [turborepo][turborepo] using [pnpm][pnpm] as a package manager, comprised of the following packages:
 
 ### `pbix`
 
