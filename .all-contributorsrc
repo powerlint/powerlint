@@ -1,5 +1,20 @@
 {
-    "projectName": "pbilint",
-    "projectOwner": "pbilint",
-    "contributors": []
+  "projectName": "pbilint",
+  "projectOwner": "pbilint",
+  "contributors": [
+    {
+      "login": "lukecarr",
+      "name": "Luke Carr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24438483?v=4",
+      "profile": "https://www.carr.sh",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "files": [
+    "README.md"
+  ],
+  "commitConvention": "angular",
+  "contributorsPerLine": 7
 }
