@@ -21,7 +21,7 @@ The [`pbix` package](packages/pbix) is an API library for parsing and extracting
 
 ### `pbilint`
 
-The [`pbilint` package](packages/pbilint) is a CLI for linting and validating Power BI reports against predefined conditions. Internally, this CLI uses the [`pbix`][#pbix] library to parse Power BI report files.
+The [`pbilint` package](packages/pbilint) is a CLI for linting and validating Power BI reports against predefined conditions. Internally, this CLI uses the [`pbix`](#pbix) library to parse Power BI report files.
 
 [turborepo]: https://turbo.build/repo
 [pnpm]: https://pnpm.io
