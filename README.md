@@ -39,6 +39,13 @@ The [`pbilint` package](packages/pbilint) is a CLI for linting and validating Po
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.carr.sh"><img src="https://avatars.githubusercontent.com/u/24438483?v=4?s=100" width="100px;" alt="Luke Carr"/><br /><sub><b>Luke Carr</b></sub></a><br /><a href="#code-lukecarr" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
