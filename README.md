@@ -9,7 +9,7 @@
 [![Testing status](https://img.shields.io/github/actions/workflow/status/pbilint/pbilint/test.yml?label=tests&style=for-the-badge&labelColor=eef1ef&logo=vitest&logoColor=1c2321)][tests]
 [![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/pbilint/pbilint?style=for-the-badge&labelColor=eef1ef&logo=snyk&logoColor=1c2321)](#)
 
-pbilint is a validation/linting tool for Power BI reports. It inspects `.pbix` files to guarantee that your predefined conditions (e.g. "x" page is hidden, "y" page has "z" visual) are satisfied. Integrating with a Continuous Integration (CI) solution allows you to ensure that destructive modifications are not unintentionally introduced to your Power BI reports.
+pbilint is a validation/linting tool for [Power BI][powerbi] reports. It inspects `.pbix` files to guarantee that your predefined conditions (e.g. "x" page is hidden, "y" page has "z" visual) are satisfied. Integrating with a Continuous Integration (CI) solution allows you to ensure that destructive modifications are not unintentionally introduced to your Power BI reports.
 
 > *pbilint is not endorsed by nor affiliated with Microsoft or Power BI in any shape or form. pbilint is a community project to provide better tooling around Power BI!*
 
@@ -51,5 +51,6 @@ The [`pbilint` package](packages/pbilint) is a CLI for linting and validating Po
 
 [tests]: https://github.com/pbilint/pbilint/actions/workflows/test.yml
 [discussion]: https://github.com/orgs/pbilint/discussions
+[powerbi]: https://powerbi.microsoft.com
 [turborepo]: https://turbo.build/repo
 [pnpm]: https://pnpm.io
