@@ -15,6 +15,6 @@
   "files": [
     "README.md"
   ],
-  "commitConvention": "angular",
+  "commitConvention": "gitmoji",
   "contributorsPerLine": 7
 }
