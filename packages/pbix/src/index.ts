@@ -1,8 +1,8 @@
 import AdmZip from 'adm-zip'
 import { parseSection, Section } from './parsers/section'
 
-export async function parseReport(path: string) {
-    const archive = new AdmZip(path)
+export async function parseReport(pathOrBuffer: string | Buffer) {
+    const archive = new AdmZip(pathOrBuffer)
     const entries = archive.getEntries()
 
     const layoutEntry = entries.find(({ entryName }) => entryName === 'Report/Layout')
