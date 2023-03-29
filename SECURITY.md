@@ -2,11 +2,21 @@
 
 ## Supported versions
 
+### `pbilint`
+
 The following table describes the versions of pbilint that the core team currently support with security fixes.
 
 | Version | Supported          |
 | :-----: | :----------------: |
 | 0.0.0   | ✅                 |
+
+### `pbix`
+
+The following table describes the versions of pbilint that the core team currently support with security fixes.
+
+| Version | Supported          |
+| :-----: | :----------------: |
+| 1.0.0   | ✅                 |
 
 ## Responsible disclosure security policy
 
