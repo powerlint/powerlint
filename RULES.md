@@ -12,6 +12,14 @@ The auto recovery feature can be disabled on an per-report basis. However, disab
 
 This rule throws an error if the report has auto recovery disabled.
 
+## `default-page-names`
+
+> Introduced in version `0.1.0`.
+
+By default, Power BI uses a naming convention of `"Page n"` for page names (where `n` is an incrementing number, starting at 1).
+
+This rule throws an error if any pages have names that match this format.
+
 ## `duplicate-of-page-names`
 
 > Introduced in version `0.1.0`.
