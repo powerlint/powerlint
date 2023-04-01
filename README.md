@@ -16,7 +16,7 @@ PowerLint is a validation/linting tool for [Power BI][powerbi] reports. It inspe
 
 ## Example linter output
 
-> The screenshot below demonstrates how report-wide errors & warnings appear first and page-specific errors are then grouped by page and displayed last.
+> The screenshot below demonstrates how report-wide errors & warnings appear first and then page-specific errors are grouped by page name and displayed last.
 
 ![PowerLint CLI screenshot](https://user-images.githubusercontent.com/24438483/229314313-f439f497-8a3e-4b01-ad99-db2d69f9f864.png)
 
