@@ -10,7 +10,7 @@
 [![Testing status](https://img.shields.io/github/actions/workflow/status/powerlint/powerlint/test.yml?label=tests&style=for-the-badge&labelColor=eef1ef&logo=vitest&logoColor=1c2321)][tests]
 [![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/powerlint/powerlint?style=for-the-badge&labelColor=eef1ef&logo=snyk&logoColor=1c2321)](#)
 
-PowerLint is a validation/linting tool for [Power BI][powerbi] reports. It inspects `.pbix` files to guarantee that your predefined conditions (e.g. "x" page is hidden, "y" page has "z" visual) are satisfied. Integrating with a Continuous Integration (CI) solution allows you to ensure that destructive modifications are not unintentionally introduced to your Power BI reports.
+PowerLint is a validation/linting tool for [Power BI][powerbi] reports. It inspects `.pbix` files to guarantee that they adhere to a [set of standard rules][rules]. Integrating with a Continuous Integration (CI) solution allows you to ensure that destructive modifications are not unintentionally introduced to your Power BI reports.
 
 > *PowerLint is not endorsed by nor affiliated with Microsoft or Power BI in any shape or form. PowerLint is a community project to provide better tooling around Power BI!*
 
@@ -23,7 +23,7 @@ PowerLint is a validation/linting tool for [Power BI][powerbi] reports. It inspe
 ## How it works
 
 1. The `pbix` NPM package extracts report metadata and structure from a Power BI report file. *This package is also published as a standalone API that you can use to parse report files in your projects!*
-1. The `powerlint` CLI compares the parsed report details (from the previous step) against a JSON configuration defining your expected structure.
+1. The `powerlint` CLI compares the parsed report details (from the previous step) against a set of standard rules that define conventional Power BI report behavior.
 1. The comparison results are formatted and rendered in a way that makes identifying and debugging linter errors easy!
 
 ## Monorepo contents
@@ -36,7 +36,7 @@ The [`pbix` package](packages/pbix) is an API library for parsing and extracting
 
 ### `powerlint`
 
-The [`powerlint` package](packages/powerlints) is a CLI for linting and validating Power BI reports against predefined conditions. Internally, this CLI uses the [`pbix`](#pbix) library to parse Power BI report files.
+The [`powerlint` package](packages/powerlints) is a CLI for linting and validating Power BI reports against a set of rules. Internally, this CLI uses the [`pbix`](#pbix) library to parse Power BI report files.
 
 ## Contributors
 
