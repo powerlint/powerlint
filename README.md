@@ -51,6 +51,12 @@ The [`powerlint` package](packages/powerlints) is a CLI for linting and validati
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
+## Versioning
+
+PowerLint uses [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.html).
+
+All you really need to know is that the major component of the version (`x` in `x.y.z`) is only incremented when breaking changes are introduced that create an incompatibility with prior versions.
+
 [tests]: https://github.com/powerlint/powerlint/actions/workflows/test.yml
 [discussion]: https://github.com/powerlint/powerlint/discussions
 [powerbi]: https://powerbi.microsoft.com
