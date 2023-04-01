@@ -2,9 +2,9 @@
 
 ## Supported versions
 
-### `pbilint`
+### `powerlint`
 
-The following table describes the versions of [`pbilint`](packages/pbilint) that the core team currently support with security fixes.
+The following table describes the versions of [`powerlint`](packages/powerlint) that the core team currently support with security fixes.
 
 | Version | Supported          |
 | :-----: | :----------------: |
@@ -34,4 +34,4 @@ We consider the security of our packages and libraries a top priority. But no ma
 
 Your efforts to responsibly disclose your findings are sincerely appreciated and will be taken into account to acknowledge your contributions.
 
-[advisories]: https://github.com/pbilint/pbilint/security/advisories
+[advisories]: https://github.com/powerlint/powerlint/security/advisories
