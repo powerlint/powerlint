@@ -13,6 +13,8 @@ PowerLint is a validation/linting tool for [Power BI][powerbi] reports. It inspe
 
 > *PowerLint is not endorsed by nor affiliated with Microsoft or Power BI in any shape or form. PowerLint is a community project to provide better tooling around Power BI!*
 
+![PowerLint example screenshot](https://user-images.githubusercontent.com/24438483/229304395-c649252b-cc14-4b24-9259-a128933f4432.png)
+
 ## How it works
 
 1. The `pbix` NPM package extracts report metadata and structure from a Power BI report file. *This package is also published as a standalone API that you can use to parse report files in your projects!*
