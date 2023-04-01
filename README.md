@@ -5,13 +5,18 @@
 
 [![MIT license](https://img.shields.io/github/license/powerlint/powerlint?style=for-the-badge&labelColor=eef1ef&color=6369d1&logo=open-source-initiative&logoColor=1c2321)](LICENSE)
 [![Contributors](https://img.shields.io/github/all-contributors/powerlint/powerlint?style=for-the-badge&labelColor=eef1ef&color=6369d1)](#contributors)
-[![GitHub discussions](https://img.shields.io/badge/GitHub-Discussion-black?style=for-the-badge&labelColor=eef1ef&color=6369d1&logo=github&logoColor=1c2321)][discussion]
+[![Linting rules](https://img.shields.io/badge/GitHub-Discussion-black?style=for-the-badge&labelColor=eef1ef&color=6369d1&logo=github&logoColor=1c2321)][discussion]
+[![GitHub discussions](https://img.shields.io/badge/Linting%20Rules-3-black?style=for-the-badge&labelColor=eef1ef&color=6369d1)][rules]
 [![Testing status](https://img.shields.io/github/actions/workflow/status/powerlint/powerlint/test.yml?label=tests&style=for-the-badge&labelColor=eef1ef&logo=vitest&logoColor=1c2321)][tests]
 [![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/powerlint/powerlint?style=for-the-badge&labelColor=eef1ef&logo=snyk&logoColor=1c2321)](#)
 
 PowerLint is a validation/linting tool for [Power BI][powerbi] reports. It inspects `.pbix` files to guarantee that your predefined conditions (e.g. "x" page is hidden, "y" page has "z" visual) are satisfied. Integrating with a Continuous Integration (CI) solution allows you to ensure that destructive modifications are not unintentionally introduced to your Power BI reports.
 
 > *PowerLint is not endorsed by nor affiliated with Microsoft or Power BI in any shape or form. PowerLint is a community project to provide better tooling around Power BI!*
+
+## Example linter output
+
+> The screenshot below demonstrates how report-wide errors & warnings appear first and page-specific errors are then grouped by page and displayed last.
 
 ![PowerLint CLI screenshot](https://user-images.githubusercontent.com/24438483/229314313-f439f497-8a3e-4b01-ad99-db2d69f9f864.png)
 
@@ -59,6 +64,7 @@ All you really need to know is that the major component of the version (`x` in `
 
 [tests]: https://github.com/powerlint/powerlint/actions/workflows/test.yml
 [discussion]: https://github.com/powerlint/powerlint/discussions
+[rules]: RULES.md
 [powerbi]: https://powerbi.microsoft.com
 [turborepo]: https://turbo.build/repo
 [pnpm]: https://pnpm.io
