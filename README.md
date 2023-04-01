@@ -1,7 +1,7 @@
 <img src="https://user-images.githubusercontent.com/24438483/228566525-0553987f-51c1-4297-8687-032944a6e084.png" align="right"
-     alt="Power Lint logo" height="160" width="160" />
+     alt="PowerLint logo" height="160" width="160" />
 
-# Power Lint
+# PowerLint
 
 [![MIT license](https://img.shields.io/github/license/powerlint/powerlint?style=for-the-badge&labelColor=eef1ef&color=6369d1&logo=open-source-initiative&logoColor=1c2321)](LICENSE)
 [![Contributors](https://img.shields.io/github/all-contributors/powerlint/powerlint?style=for-the-badge&labelColor=eef1ef&color=6369d1)](#contributors)
@@ -9,9 +9,9 @@
 [![Testing status](https://img.shields.io/github/actions/workflow/status/powerlint/powerlint/test.yml?label=tests&style=for-the-badge&labelColor=eef1ef&logo=vitest&logoColor=1c2321)][tests]
 [![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/powerlint/powerlint?style=for-the-badge&labelColor=eef1ef&logo=snyk&logoColor=1c2321)](#)
 
-Power Lint is a validation/linting tool for [Power BI][powerbi] reports. It inspects `.pbix` files to guarantee that your predefined conditions (e.g. "x" page is hidden, "y" page has "z" visual) are satisfied. Integrating with a Continuous Integration (CI) solution allows you to ensure that destructive modifications are not unintentionally introduced to your Power BI reports.
+PowerLint is a validation/linting tool for [Power BI][powerbi] reports. It inspects `.pbix` files to guarantee that your predefined conditions (e.g. "x" page is hidden, "y" page has "z" visual) are satisfied. Integrating with a Continuous Integration (CI) solution allows you to ensure that destructive modifications are not unintentionally introduced to your Power BI reports.
 
-> *Power Lint is not endorsed by nor affiliated with Microsoft or Power BI in any shape or form. Power Lint is a community project to provide better tooling around Power BI!*
+> *PowerLint is not endorsed by nor affiliated with Microsoft or Power BI in any shape or form. PowerLint is a community project to provide better tooling around Power BI!*
 
 ## How it works
 
