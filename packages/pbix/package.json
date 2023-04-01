@@ -1,15 +1,20 @@
 {
   "name": "pbix",
   "version": "1.0.0",
+  "type": "module",
   "main": "dist/index.js",
   "module": "dist/module.js",
   "types": "dist/types.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "parcel watch",
     "build": "parcel build src/index.ts --no-autoinstall",
     "test": "vitest"
   },
   "devDependencies": {
+    "@parcel/core": "latest",
     "@parcel/packager-ts": "latest",
     "@parcel/transformer-typescript-types": "latest",
     "@types/adm-zip": "^0.5.0",
