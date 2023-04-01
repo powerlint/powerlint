@@ -52,7 +52,7 @@ The [`powerlint` package](packages/powerlints) is a CLI for linting and validati
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 [tests]: https://github.com/powerlint/powerlint/actions/workflows/test.yml
-[discussion]: https://github.com/orgs/powerlint/discussions
+[discussion]: https://github.com/powerlint/powerlint/discussions
 [powerbi]: https://powerbi.microsoft.com
 [turborepo]: https://turbo.build/repo
 [pnpm]: https://pnpm.io
