@@ -6,7 +6,7 @@
 [![MIT license](https://img.shields.io/github/license/powerlint/powerlint?style=for-the-badge&labelColor=eef1ef&color=6369d1&logo=open-source-initiative&logoColor=1c2321)](LICENSE)
 [![Contributors](https://img.shields.io/github/all-contributors/powerlint/powerlint?style=for-the-badge&labelColor=eef1ef&color=6369d1)](#contributors)
 [![Linting rules](https://img.shields.io/badge/GitHub-Discussion-black?style=for-the-badge&labelColor=eef1ef&color=6369d1&logo=github&logoColor=1c2321)][discussion]
-[![GitHub discussions](https://img.shields.io/badge/Linting%20Rules-3-black?style=for-the-badge&labelColor=eef1ef&color=6369d1)][rules]
+[![GitHub discussions](https://img.shields.io/badge/Linting%20Rules-4-black?style=for-the-badge&labelColor=eef1ef&color=6369d1)][rules]
 [![Testing status](https://img.shields.io/github/actions/workflow/status/powerlint/powerlint/test.yml?label=tests&style=for-the-badge&labelColor=eef1ef&logo=vitest&logoColor=1c2321)][tests]
 [![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/powerlint/powerlint?style=for-the-badge&labelColor=eef1ef&logo=snyk&logoColor=1c2321)](#)
 
