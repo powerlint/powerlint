@@ -13,7 +13,7 @@ PowerLint is a validation/linting tool for [Power BI][powerbi] reports. It inspe
 
 > *PowerLint is not endorsed by nor affiliated with Microsoft or Power BI in any shape or form. PowerLint is a community project to provide better tooling around Power BI!*
 
-![PowerLint example screenshot](https://user-images.githubusercontent.com/24438483/229304395-c649252b-cc14-4b24-9259-a128933f4432.png)
+![PowerLint CLI screenshot](https://user-images.githubusercontent.com/24438483/229314313-f439f497-8a3e-4b01-ad99-db2d69f9f864.png)
 
 ## How it works
 
