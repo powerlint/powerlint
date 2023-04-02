@@ -53,8 +53,13 @@ reports against a set of rules. Internally, this CLI uses the
 
 ### `@powerlint/pbix`
 
-The [`@powerlint/pbix` package][pbix] is an API library for parsing and extracting metadata
-from Power BI report files (with a `.pbix` file extension).
+The [`@powerlint/pbix` package][pbix] is an API library for parsing and
+extracting metadata from Power BI report files (with a `.pbix` file extension).
+
+### `@powerlint/types`
+
+The [`@powerlint/types` package][types] contains TypeScript definitions shared
+across all packages in this monorepo.
 
 ## Contributors
 
@@ -94,6 +99,7 @@ incompatibility with prior versions.
 [pnpm]: https://pnpm.io
 [pbix]: packages/pbix
 [powerlint]: packages/powerlint
+[types]: packages/types
 [semver]: https://semver.org/spec/v2.0.0.html
 
 <!-- Image references -->
