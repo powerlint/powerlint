@@ -1,3 +1,6 @@
+<img src="https://user-images.githubusercontent.com/24438483/228566525-0553987f-51c1-4297-8687-032944a6e084.png" align="right"
+     alt="PowerLint logo" height="160" width="160" />
+
 # PowerLint Rules
 
 This page details every linting rule currently available when using the [PowerLint][PowerLint] CLI.
