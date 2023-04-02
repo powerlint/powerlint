@@ -1,10 +1,10 @@
 import chalk from 'chalk'
-import type { Report } from 'pbix'
+import type { Report } from '@powerlint/pbix'
 
 export abstract class Rule {
     name?: string
     description?: string
-    
+
     abstract apply(report: Report): LintingError[]
 }
 
@@ -14,7 +14,7 @@ export type RuleMetadataOptions = {
 }
 
 export function RuleMetadata({ name, description }: RuleMetadataOptions) {
-    return function <T extends { new (...args: any[]): {} }>(constructor: T) {
+    return function <T extends { new(...args: any[]): {} }>(constructor: T) {
         return class extends constructor {
             name = name
             description = description

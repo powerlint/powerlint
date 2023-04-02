@@ -1,4 +1,4 @@
-import { Report } from 'pbix'
+import type { Report } from '@powerlint/pbix'
 import { LintingError, Rule, RuleMetadata } from '../rule'
 
 @RuleMetadata({ name: 'auto-recovery-disabled', description: 'Ensure that report auto recovery is enabled' })

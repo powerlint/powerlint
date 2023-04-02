@@ -1,4 +1,4 @@
-import { Report } from 'pbix'
+import type { Report } from '@powerlint/pbix'
 import { PageError, Rule, RuleMetadata } from '../rule'
 
 @RuleMetadata({ name: 'duplicate-of-page-names', description: 'Disallow report pages with names that start with "Duplicate of"' })

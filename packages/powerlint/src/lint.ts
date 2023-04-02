@@ -1,4 +1,4 @@
-import { Report, parseReport } from 'pbix'
+import { Report, parseReport } from '@powerlint/pbix'
 import chalk from 'chalk'
 import type Table from 'cli-table'
 import { Rule, LintingError, LintingErrorInstance, LintingErrorLevelChalk, LintingErrorLevel } from './rule'
@@ -40,7 +40,7 @@ export class Linter {
                 errors.add([error, () => error.output(rule, LintingErrorLevel.ERROR)])
             }
         }
-        
+
         return errors
     }
 }
