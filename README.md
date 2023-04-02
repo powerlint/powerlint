@@ -52,7 +52,7 @@ reports against a set of rules. Internally, this CLI uses the
 
 ### `@powerlint/pbix`
 
-The [`pbix` package][pbix] is an API library for parsing and extracting metadata
+The [`@powerlint/pbix` package][pbix] is an API library for parsing and extracting metadata
 from Power BI report files (with a `.pbix` file extension).
 
 ## Contributors
