@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "christian-kohler.npm-intellisense",
+        "gruntfuggly.todo-tree",
+        "mkxml.vscode-filesize",
+        "seatonjiang.gitmoji-vscode",
+        "mutantdino.resourcemonitor"
+    ]
+}
