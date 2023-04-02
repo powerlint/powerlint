@@ -1,6 +1,5 @@
 {
-  "name": "powerlint",
-  "version": "0.0.0",
+  "name": "@powerlint/monorepo",
   "private": true,
   "workspaces": [
     "packages/*"
@@ -9,8 +8,7 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "test": "turbo run test",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "test": "turbo run test"
   },
   "devDependencies": {
     "turbo": "latest"
