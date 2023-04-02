@@ -1,0 +1,18 @@
+{
+  "name": "@powerlint/types",
+  "version": "1.0.0",
+  "main": "dist/index.d.ts",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsc-watch",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "tsc-watch": "latest",
+    "typescript": "latest"
+  }
+}

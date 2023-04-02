@@ -1,4 +1,5 @@
-import { Report, parseReport } from '@powerlint/pbix'
+import { parseReport } from '@powerlint/pbix'
+import type { Report } from '@powerlint/types'
 import chalk from 'chalk'
 import type Table from 'cli-table'
 import { Rule, LintingError, LintingErrorInstance, LintingErrorLevelChalk, LintingErrorLevel } from './rule'

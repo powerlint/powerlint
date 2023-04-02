@@ -1,5 +1,5 @@
 import chalk from 'chalk'
-import type { Report } from '@powerlint/pbix'
+import type { Report } from '@powerlint/types'
 
 export abstract class Rule {
     name?: string

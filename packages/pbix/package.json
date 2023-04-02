@@ -17,6 +17,7 @@
     "@parcel/core": "latest",
     "@parcel/packager-ts": "latest",
     "@parcel/transformer-typescript-types": "latest",
+    "@powerlint/types": "workspace:*",
     "@types/adm-zip": "^0.5.0",
     "@types/node": "latest",
     "parcel": "latest",

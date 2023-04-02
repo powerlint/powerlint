@@ -20,6 +20,7 @@
     "@parcel/packager-ts": "latest",
     "@parcel/transformer-typescript-tsc": "latest",
     "@parcel/transformer-typescript-types": "latest",
+    "@powerlint/types": "workspace:*",
     "@types/cli-table": "0.3.1",
     "@types/node": "latest",
     "parcel": "latest",

@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "emitDeclarationOnly": true,
+        "outDir": "dist",
+        "target": "ES2015",
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "strict": true
+    },
+    "include": [
+        "src"
+    ]
+}
