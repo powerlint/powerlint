@@ -28,7 +28,7 @@
     "typescript": "latest"
   },
   "dependencies": {
-    "@commander-js/extra-typings": "10.0.3",
+    "@commander-js/extra-typings": "11.0.0",
     "@powerlint/pbix": "workspace:*",
     "chalk": "5.2.0",
     "cli-table": "0.3.11",
